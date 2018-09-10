@@ -2,11 +2,31 @@
   "name": "jest-testdouble",
   "version": "1.0.0",
   "description": "Additional Jest matchers for testdouble",
-  "main": "index.js",
+  "author": {
+    "name": "Ly Tran",
+    "email": "prtran@gmail.com",
+    "url": "https://lytc.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lytc/jest-testdouble.git"
+  },
+  "keywords": [
+    "jest",
+    "testdouble",
+    "test double",
+    "td",
+    "expect"
+  ],
+  "bugs": {
+    "url": "https://github.com/lytc/jest-testdouble/issues"
+  },
+  "homepage": "https://github.com/lytc/jest-testdouble#readme",
   "license": "MIT",
   "engines": {
     "node": ">=8"
   },
+  "main": "src/index.js",
   "scripts": {
     "lint": "$(npm bin)/eslint src test",
     "test": "$(npm bin)/jest",

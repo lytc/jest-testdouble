@@ -1,4 +1,4 @@
-## [TestDouble](https://github.com/testdouble/testdouble.js) matchers for [Jest](https://github.com/facebook/jest)
+## Additional [Jest](https://github.com/facebook/jest) matchers for [TestDouble](https://github.com/testdouble/testdouble.js)
 ### Installation
 ```bash
 npm i jest-testdouble --save-dev
@@ -19,7 +19,7 @@ global.td = td;
 ```
 
 ### Usage
-This package add TestDouble matchers to Jest. Fallback to Jest matcher if the expect `value` is Jest mock or spy.
+This package add Jest matchers for TestDouble. Fallback to Jest matcher if the expect `value` is Jest mock/spy.
 #### Matchers
 - [not].toHaveBeenCalled (alias [not].toBeCalled)
 - [not].toHaveBeenCalledWith (alias [not].toBeCalledWith)
