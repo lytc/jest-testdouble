@@ -1,6 +1,6 @@
 {
   "name": "jest-testdouble",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Additional Jest matchers for testdouble",
   "author": {
     "name": "Ly Tran",
@@ -37,14 +37,13 @@
     "testdouble": ">=3.6"
   },
   "devDependencies": {
+    "eslint": "^5.5.0",
     "husky": "^1.0.0-rc.13",
     "jest": "^23.5.0",
     "prettier": "^1.14.2",
     "testdouble": "^3.8.1"
   },
-  "dependencies": {
-    "eslint": "^5.5.0"
-  },
+  "dependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint",
