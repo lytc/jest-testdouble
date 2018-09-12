@@ -1,3 +1,7 @@
+## [Unreleased]
+### Added
+- Travis CI
+
 ## [1.1.1] 2018-09-11
 ### Fixed
 - Moved eslint to dev dependencies
