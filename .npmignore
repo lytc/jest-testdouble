@@ -6,3 +6,4 @@ test
 yarn.lock
 .eslintrc.json
 .nvmrc
+.travis.yaml
