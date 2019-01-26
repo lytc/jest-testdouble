@@ -1,6 +1,6 @@
 {
   "name": "jest-testdouble",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Additional Jest matchers for testdouble",
   "author": {
     "name": "Ly Tran",
