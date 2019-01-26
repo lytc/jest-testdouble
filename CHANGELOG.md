@@ -1,6 +1,8 @@
 ## [Unreleased]
 ### Added
 - Travis CI
+### Changed
+- Jest 24
 
 ## [1.1.1] 2018-09-11
 ### Fixed
