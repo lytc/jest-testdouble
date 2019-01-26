@@ -1,4 +1,4 @@
-## [Unreleased]
+## [2.0.0] 2019-01-26
 ### Added
 - Travis CI
 ### Changed
