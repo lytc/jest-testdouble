@@ -1,5 +1,5 @@
 const td = require('testdouble');
-const jestSpyMatchers = require('expect/build/spy_matchers').default;
+const jestSpyMatchers = require('expect/build/spyMatchers').default;
 const argsMatch = require('testdouble/lib/args-match').default;
 const { matcherHint, printWithType, printReceived, RECEIVED_COLOR } = require('jest-matcher-utils');
 

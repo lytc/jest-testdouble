@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`#toHaveBeenCalled should fail if was not called 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalled([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalled()[22m
 
 Expected [test double for \\"foo\\"] to have been called.
 But it was [31mnot called[39m."
 `;
 
 exports[`#toHaveBeenCalled should fail not 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenCalled([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenCalled()[22m
 
 Expected [test double for \\"foo\\"] to not have been called.
 But it was called with:
@@ -16,7 +16,7 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenCalledTimes should fail 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes()[22m
 
 Expected [test double for \\"foo\\"] to have been called 1 time, but it was called 2 times.
 - [31m[1][39m
@@ -24,37 +24,37 @@ Expected [test double for \\"foo\\"] to have been called 1 time, but it was call
 `;
 
 exports[`#toHaveBeenCalledTimes should fail with invalid time value 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes()[22m
 
 [31m\\"number\\"[39m value must be a positive integer greater than or equal to [32m0[39m.
-Got: [31mundefined[39m"
+Got has value: [31mundefined[39m"
 `;
 
 exports[`#toHaveBeenCalledTimes should fail with invalid time value 2`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes()[22m
 
 [31m\\"number\\"[39m value must be a positive integer greater than or equal to [32m0[39m.
-Got:
-  string: [31m\\"hey\\"[39m"
+Got has type:  string
+Got has value: [31m\\"hey\\"[39m"
 `;
 
 exports[`#toHaveBeenCalledTimes should fail with invalid time value 3`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledTimes()[22m
 
 [31m\\"number\\"[39m value must be a positive integer greater than or equal to [32m0[39m.
-Got:
-  number: [31m-1[39m"
+Got has type:  number
+Got has value: [31m-1[39m"
 `;
 
 exports[`#toHaveBeenCalledTimes should fail with not 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenCalledTimes([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenCalledTimes()[22m
 
 Expected [test double for \\"foo\\"] not to have been called 1 time, but it was called 1 time.
 - [31m[1][39m"
 `;
 
 exports[`#toHaveBeenCalledWith should fail if was not called 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledWith()[22m
 
 Expected [test double for \\"foo\\"] to have been called with:
 [32m[1, 2][39m
@@ -62,7 +62,7 @@ But it was [31mnot called[39m."
 `;
 
 exports[`#toHaveBeenCalledWith should fail when the args does not match 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenCalledWith()[22m
 
 Expected [test double for \\"foo\\"] to have been called with:
 [32m[1, 2][39m
@@ -72,7 +72,7 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenCalledWith should fail with not 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenCalledWith()[22m
 
 Expected [test double for \\"foo\\"] to not have been called with:
 [32m[1, 2][39m
@@ -82,7 +82,7 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenLastCalledWith should fail 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenLastCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenLastCalledWith()[22m
 
 Expected [test double for \\"foo\\"] to have been last called with:
 [32m[1][39m
@@ -91,7 +91,7 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenLastCalledWith should fail if was not called 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenLastCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenLastCalledWith()[22m
 
 Expected [test double for \\"foo\\"] to have been last called with:
 [32m[1][39m
@@ -99,7 +99,7 @@ But it was [31mnot called[39m."
 `;
 
 exports[`#toHaveBeenLastCalledWith should fail with not 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenLastCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenLastCalledWith()[22m
 
 Expected [test double for \\"foo\\"] to not have been last called with:
 [32m[2][39m
@@ -108,7 +108,7 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenNthCalledWith should fail if was not called 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith()[22m
 
 Expected [test double for \\"foo\\"] first call to have been called with:
 [32m[2][39m
@@ -116,7 +116,7 @@ But it was [31mnot called[39m."
 `;
 
 exports[`#toHaveBeenNthCalledWith should fail with args 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith()[22m
 
 Expected [test double for \\"foo\\"] first call to have been called with:
 [32m[1][39m
@@ -125,13 +125,13 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenNthCalledWith should fail with invalid time number 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith()[22m
 
 nth value [31m-1[39m must be a positive integer greater than [32m0[39m"
 `;
 
 exports[`#toHaveBeenNthCalledWith should fail with not 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenNthCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).not.toHaveBeenNthCalledWith()[22m
 
 Expected [test double for \\"foo\\"] second call to not have been called with:
 [32m[2][39m
@@ -140,7 +140,7 @@ But it was called with:
 `;
 
 exports[`#toHaveBeenNthCalledWith should fail with nth 1`] = `
-"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith([22m[2m)[22m
+"[2mexpect([22m[31mtestDouble[39m[2m).toHaveBeenNthCalledWith()[22m
 
 Expected [test double for \\"foo\\"] second call to have been called with:
 [32m[1][39m
@@ -157,9 +157,9 @@ as argument 1, but it was called with
 `;
 
 exports[`#toHaveBeenNthCalledWith should throw error if value is not test double or jest mock/spy 1`] = `
-"[2mexpect([22m[31mreceived[39m[2m).toBeCalled([22m[2m)[22m
+"[2mexpect([22m[31mreceived[39m[2m).toBeCalled()[22m
 
 [31mreceived[39m value must be a test double, jest mock function or jest spy.
-Received:
-  function: [31m[Function foo][39m"
+Received has type:  function
+Received has value: [31m[Function foo][39m"
 `;

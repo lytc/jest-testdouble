@@ -1,4 +1,6 @@
 ## Additional [Jest](https://github.com/facebook/jest) matchers for [TestDouble](https://github.com/testdouble/testdouble.js)
+[![Build Status](https://circleci.com/gh/lytc/jest-testdouble/tree/master.svg?style=svg)](https://circleci.com/gh/lytc/jest-testdouble/tree/master)
+[![npmjs](https://img.shields.io/badge/npm-jest-testdouble-red.svg)](https://www.npmjs.com/package/testdouble)
 ### Installation
 ```bash
 npm i jest-testdouble --save-dev
