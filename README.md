@@ -3,17 +3,17 @@
 [![npmjs](https://img.shields.io/badge/npm-jest-testdouble-red.svg)](https://www.npmjs.com/package/testdouble)
 ### Installation
 ```bash
-npm i jest-testdouble --save-dev
+npm i jest-testdouble expect --save-dev # "expect" is a peer dependency required for jest-testdouble to work
 ```
 or
 ```sbash
-yarn add jest-testdouble --dev
+yarn add jest-testdouble expect --dev # "expect" is a peer dependency required for jest-testdouble to work
 ```
 ### Configuration
 From Jest test helper (we recommend to use [setupTestFrameworkScriptFile](https://jestjs.io/docs/en/configuration.html#setuptestframeworkscriptfile-string))
 ```js
 const td = require('testdouble');
-const jesTestDouble = require('jest-testdouble');
+const jestTestDouble = require('jest-testdouble');
 
 jestTestDouble(td);
 
@@ -38,5 +38,16 @@ expect(drink).toHaveBeenCalledWith('beer');
 const eat = jest.eat('eat');
 eat('rice');
 expect(eat).toHaveBeenCalledWith('rice');
+```
+
+### Cannot find module 'expect/build/spyMatchers' from 'index.js' error
+`jest-testdouble` requires the `expect` package to work. You just need to install it
+
+```bash
+npm i expect --save-dev
+```
+or
+```sbash
+yarn add expect --dev
 ```
 
