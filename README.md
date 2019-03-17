@@ -6,7 +6,7 @@
 npm i jest-testdouble expect --save-dev # "expect" is a peer dependency required for jest-testdouble to work
 ```
 or
-```sbash
+```bash
 yarn add jest-testdouble expect --dev # "expect" is a peer dependency required for jest-testdouble to work
 ```
 ### Configuration
@@ -47,7 +47,7 @@ expect(eat).toHaveBeenCalledWith('rice');
 npm i expect --save-dev
 ```
 or
-```sbash
+```bash
 yarn add expect --dev
 ```
 
